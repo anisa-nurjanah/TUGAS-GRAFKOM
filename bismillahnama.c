@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 int x=0.1;
+double stop = 0.0;
 
     static void error_callback(int error, const char* description) {
       fputs(description, stderr);
@@ -403,6 +404,11 @@ glBegin(GL_POLYGON);
     glVertex2d(194.17,237);
     glEnd();
 
+    if(x<=720)x++;
+        else if(x>=720) {
+            x--;
+            if(x==720) x=0;
+        }
     glPopMatrix();
 }
 
@@ -424,6 +430,11 @@ glPopMatrix();
 }
 
 void kris1(){
+    glPushMatrix();
+    glTranslated(604.67,108,0);  //957, 400 itu pusat rotasinya
+        glRotatef((float)glfwGetTime()*100.0f,0.0f,0.0f,1.0f);
+        glTranslated(-604.67,-108,0);
+
 glBegin(GL_POLYGON);
     glColor3ub(21,69,73);
     glVertex2d(651.67,77.67);
@@ -468,13 +479,16 @@ glBegin(GL_POLYGON);
     glVertex2d(664.33,45);
     glVertex2d(651.67,77.67);
     glEnd();
+
+        glPopMatrix();
 }
 
 void kris2(){
     glPushMatrix();
     glTranslated(113.67,612,0);  //957, 400 itu pusat rotasinya
-    glRotatef((float)glfwGetTime()*100.0f,0.0f,0.0f,1.0f);
-    glTranslated(-113.67,-612,0);
+        glRotatef((float)glfwGetTime()*100.0f,0.0f,0.0f,1.0f);
+        glTranslated(-113.67,-612,0);
+
 
 glBegin(GL_POLYGON);
     glColor3ub(21,242,255);
@@ -522,6 +536,7 @@ glBegin(GL_POLYGON);
     glVertex2d(156.33,675);
     glVertex2d(98.33,687.67);
     glEnd();
+
     glPopMatrix();
 }
 
@@ -546,49 +561,50 @@ glBegin(GL_POLYGON);
 
     while (!glfwWindowShouldClose(window))
     {
+        stop = glfwGetTime();
         setup_viewport(window);
 
         display();
         bg();
 
         glPushMatrix();
-        //glTranslated(360,360,0);  //957, 400 itu pusat rotasinya
-        //glRotatef((float)glfwGetTime()*100.0f,0.0f,0.0f,1.0f);
-        //glTranslated(-360,-360,0);
-        //glRotatef((float) glfwGetTime() * 20.f, 0.f, 0.f, 0.f);
-        N();
-        I();
-        S();
-        A();
-        J();
-
-        N1();
-        I1();
-        S1();
-        A1();
-        J1();
-
-        //glRotatef(-90, 360, 360, 1);
-
         bentuk1();
-         if(x<=720)x++;
-        else if(x>=720) {
-            x--;
-            if(x==720) x=0;
-        }
-
         bentuk2();
         if(x<=720)x++;
         else if(x>=720) {
             x--;
             if(x==720) x=0;
         }
-
-        kris2();//miringannya difungsi kris2 yaa
-        glTranslated(604.67,108,0);  //957, 400 itu pusat rotasinya
-        glRotatef((float)glfwGetTime()*100.0f,0.0f,0.0f,1.0f);
-        glTranslated(-604.67,-108,0);
+        //miringannya difungsi kris yaa
+        kris2();
         kris1();
+
+        glTranslated(360,360,0);
+        	if (stop <= 10) glScalef(stop*0.1,stop*0.1,0);
+        	glTranslated(-360,-360,0);
+            N();
+            I();
+            S();
+            A();
+            J();
+
+            N1();
+            I1();
+            S1();
+            A1();
+            J1();
+
+        //glTranslated(360,360,0);  //957, 400 itu pusat rotasinya
+        //glRotatef((float)glfwGetTime()*100.0f,0.0f,0.0f,1.0f);
+        //glTranslated(-360,-360,0);
+        //glRotatef((float) glfwGetTime() * 20.f, 0.f, 0.f, 0.f);
+
+
+        //glRotatef(-90, 360, 360, 1);
+
+
+
+
 
 
 
