@@ -1,0 +1,116 @@
+---
+title: Proses
+author: Praktikum Sistem Operasi
+institute: Ilmu Komputer IPB
+date: 2019
+theme: Dresden
+header-includes:
+    - \usepackage{tikz}
+    - \renewcommand{\figurename}{Gambar}
+---
+
+# Intro
+
+## Peraturan
+
+- Pakaian sopan, tidak ketat
+    - pelanggaran 3 kali: sanksi sedang
+- Kehadiran minimal 80%
+- Toleransi keterlambatan 20 menit
+- Tidak membawa makanan ke lab
+
+---
+
+![Tata tertib mahasiswa IPB](img/tatib.jpg){width=80%}
+
+## LMS
+
+- <https://newlms.ipb.ac.id/course/view.php?id=506>
+    - *key*: `soganjil19`
+- Buku acuan:
+    - Silberschatz *et al.* 2013. *Operating System Concepts*. Ed ke-9.
+- Proporsi nilai praktikum (25%):
+    - UTSP: 10%
+    - UASP: 10%
+    - Tugas: 5%
+
+
+# Proses
+
+## Apa itu proses?
+
+## Apa itu proses?
+
+Program yang sedang berjalan.
+
+> A program in execution.[^01-process]
+
+[^01-process]: Silberschatz *et al.* (2013), *Operating System Concepts*, hlm 105.
+
+## Bagaimana cara menjalankan program?
+
+Misalkan kita ingin menjalankan program Firefox. Ada berapa cara?
+
+## Bagaimana cara menjalankan program?
+
+Misalkan kita ingin menjalankan program Firefox. Ada berapa cara?
+
+Dua cara:
+
+1. **CLI**: buka *shell*, lalu ketikkan perintah `firefox`.
+2. **GUI**: klik ikon Firefox pada menu aplikasi.
+
+[^01-ff]: jika ikon diklik, program akan tetap dijalankan melalui *shell*; coba cek isi *file* `/usr/share/applications/firefox.desktop`.
+
+
+# Shell
+
+
+## Apa itu *shell*?
+
+## Apa itu *shell*?
+
+- *Shell* adalah antarmuka antara pengguna dengan *kernel*.
+
+
+## *Kernel* vs *Shell*
+
+- *kernel* = ...
+- *shell* = ...
+
+## *Kernel* vs *Shell*
+
+- *kernel* = inti
+- *shell* = kulit
+
+\begin{center}
+  \begin{tikzpicture}
+    \draw[red,thick] (2,2) circle (2.6cm);
+    \draw[red,thick] (2,2) circle (1cm);
+    \node at (2,2) {kernel};
+    \node at (3,3.5) {shell};
+  \end{tikzpicture}
+\end{center}
+
+
+## *Kernel* vs *Shell*
+
+- *Kernel* adalah inti dari sistem operasi.
+- *Shell* adalah antarmuka antara pengguna dengan *kernel*.
+- *Shell* bertugas untuk menjalankan aplikasi pengguna.
+    - *user* &rarr; *shell* &rarr; *kernel*.
+
+## Contoh *kernel*
+
+- UNIX
+    - BSD, Darwin (macOS, iOS)
+    - IBM AIX, HP-UX, Oracle Solaris
+    - Linux
+- Windows NT
+
+## Contoh *shell*
+
+- Bourne shell (`sh`)
+- Bourne-again shell (`bash`)
+- Z shell (`zsh`)
+- Windows PowerShell
