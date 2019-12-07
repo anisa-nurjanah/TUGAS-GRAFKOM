@@ -1,22 +1,15 @@
 # Dwicker
 
 ---
-
-Nama Kelompok:
-- Anisa Nurjanah
-- Dwi Fristanti
-- Lidya Dwi Utami	
-NIM:
-- G64170006
-- G64170047
-- G64170052	
-Posisi :
-- Full Stack
-- Full Stack
-- Full Stack
-
+title: Proses
+author: Praktikum Sistem Operasi
+institute: Ilmu Komputer IPB
+date: 2019
+theme: Dresden
+header-includes:
+    - \usepackage{tikz}
+    - \renewcommand{\figurename}{Gambar}
 ---
-
 Screenshot
 
 # Deskripsi game :
