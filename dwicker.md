@@ -31,13 +31,8 @@ Akan mati jika … kali tembak. Dapat mengurangi bahkan menghabiskan nyawa Dwick
 - Akan menghilang jika Dwicker telah menemuinya untuk mengambil nyawa.
 
 Teknologi yang digunakan : 
-- Platform
--- Unity 2018.4.8f1(2D)
-Unity
-Unity Script Execution Order
-Microsoft Visual Studio 2019
-Laptop 
-Asus VivoBook X505Z
-
-
-
+- Unity 2018.4.8f1(2D)
+- Unity
+- Unity Script Execution Order
+- Microsoft Visual Studio 2019
+- Asus VivoBook X505Z
