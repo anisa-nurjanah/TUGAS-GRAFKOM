@@ -2,21 +2,21 @@
 
 ---
 
----
-Nama Kelompok :
-	- Anisa Nurjanah
-	- Dwi Fristanti
-	- Lidya Dwi Utami	
-NIM :
-	- G64170006
-	- G64170047
-	- G64170052
-	
+Nama Kelompok:
+- Anisa Nurjanah
+- Dwi Fristanti
+- Lidya Dwi Utami	
+NIM:
+- G64170006
+- G64170047
+- G64170052	
 Posisi :
-	- Full Stack
-	- Full Stack
-	- Full Stack
+- Full Stack
+- Full Stack
+- Full Stack
+
 ---
+
 Screenshot
 
 # Deskripsi game :
