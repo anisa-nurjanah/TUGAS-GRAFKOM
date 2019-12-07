@@ -1,14 +1,7 @@
 # Dwicker
 
 ---
-title: Proses
-author: Praktikum Sistem Operasi
-institute: Ilmu Komputer IPB
-date: 2019
-theme: Dresden
-header-includes:
-    - \usepackage{tikz}
-    - \renewcommand{\figurename}{Gambar}
+
 ---
 Screenshot
 
