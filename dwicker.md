@@ -30,7 +30,7 @@ Akan mati jika … kali tembak. Dapat mengurangi bahkan menghabiskan nyawa Dwick
 - Aturan Angel :
 - Akan menghilang jika Dwicker telah menemuinya untuk mengambil nyawa.
 
-Teknologi yang digunakan : 
+# Teknologi yang digunakan : 
 - Unity 2018.4.8f1(2D)
 - Unity
 - Unity Script Execution Order
