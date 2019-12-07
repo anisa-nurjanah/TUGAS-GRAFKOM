@@ -1,6 +1,8 @@
 # Dwicker
 
 ---
+
+---
 Nama Kelompok :
 	- Anisa Nurjanah
 	- Dwi Fristanti
@@ -14,7 +16,7 @@ Posisi :
 	- Full Stack
 	- Full Stack
 	- Full Stack
-
+---
 Screenshot
 
 # Deskripsi game :
