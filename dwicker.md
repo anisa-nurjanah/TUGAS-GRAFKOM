@@ -16,16 +16,15 @@ Dwicker merupakan game yang bergenre ‘Petualang’ yang diinspirasikan dari se
 - Gerak ke kanan : right arrow
 - Gerak ke kiri : left arrow
 - Loncat : space
-- Tembak : down arrow
-- Terdapat batasan nyawa
+- Memukul : down arrow
+- Batasan Nyawa : 3
 - 1-up : bertemu angel
 - Akan mati jika nyawanya habis
 
 #### Aturan Blackdog : 
 - Berjalan sesuai dengan langkah Dwicker
 - Dapat mengurangi bahkan menghabiskan nyawa Dwicker jika Dwicker tidak melawan
-- Batasan nyawa : 3
-- Akan mati jika nyawanya habis karena di tembak dwicker
+- Akan mati jika dipukul oleh Dwicker
 
 #### Aturan Angel : 
 - Akan memberi ramuan ke dwicker ( angel hanya berjalan di satu tempat )
