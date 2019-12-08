@@ -6,9 +6,6 @@
 | Anisa Nurjanah  | G64170006   | Full Stack      |
 | Dwi Fristanti   | G64170047   | Full Stack      |
 | Lidya Dwi Utami | G64170052   | Full Stack      |
-- Anisa Nurjanah    G64170006   Full Stack
-- Dwi Fristanti     G64170047   Full Stack
-- Lidya Dwi Utami   G64170052   Full Stack
 ---
 ## Screenshot
 ---
